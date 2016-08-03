@@ -1,17 +1,46 @@
+//{
+//  "compileOnSave": true,
+//  "compilerOptions": {
+//    "noImplicitAny": false,
+//    "noEmitOnError": true,
+//    "removeComments": false,
+//    "sourceMap": true,
+//    "target": "es6",
+//    "emitDecoratorMetadata": true,
+//    "experimentalDecorators": true,
+//    "module": "commonjs",
+//    "moduleResolution": "node"
+//  },
+//  "exclude": [
+//    "node_modules"
+//  ]
+//}
 {
-  "compileOnSave": true,
   "compilerOptions": {
-    "noImplicitAny": false,
     "noEmitOnError": true,
-    "removeComments": false,
-    "sourceMap": true,
-    "target": "es6",
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "declaration": false,
+    "removeComments": true,
+    "noLib": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "module": "commonjs",
-    "moduleResolution": "node"
+    "sourceMap": true,
+    "pretty": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitUseStrict": false,
+    "noFallthroughCasesInSwitch": true
   },
   "exclude": [
-    "node_modules"
-  ]
+    "node_modules",
+    "dist",
+    "typings/index.d.ts",
+    "typings/modules",
+    "wwwroot"
+  ],
+  "compileOnSave": false
 }
